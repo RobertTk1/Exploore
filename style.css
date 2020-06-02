@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Display .Box {
+  padding: 0 0 !important;
+}
+
+.Display .Box .displayBox {
+  width: 100%;
+}
+
+.Display .Box .scroll-box {
+  overflow-y: auto;
+  height: 50vh;
+}
+/*# sourceMappingURL=style.css.map */

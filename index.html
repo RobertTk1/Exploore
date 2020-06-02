@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exploore - Learn more about your book</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mb-1 row">
+          <!--Intro and search box -->
+          <div class="col-sm-8 Title">
+            <h1>Exploore</h1>
+            <p>Learn more about your book</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <h5 class="card-header">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="keyword"
+                    placeholder="search a word ..."
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">
+                      Search
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <div class="card-footer" id="searchstat"></div>
+            </div>
+          </div>
+        </div>
+        <!--where the book/ document is fully displayed-->
+        <div class="col-sm-12 row Display">
+          <div class="card col-sm-8 Box">
+            <h2 class="card-header" id="fileName">Book Title</h2>
+            <div class="card-body">
+              <div class="displayBox scroll-box" id="fileContent">
+                Select a book from the list above Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repellendus aspernatur sit impedit
+                tempore fugiat suscipit. Iste repellendus quidem aliquid.
+                Reiciendis earum ad minus repellat repudiandae quae ut at,
+                perferendis velit suscipit quo fugit fuga, nulla quia aliquid.
+                Ipsum in ex optio, eveniet, vitae ducimus recusandae pariatur
+                rerum consectetur vero expedita. Fugiat at, saepe, omnis nihil
+                nulla quas expedita esse excepturi iure, debitis enim quasi sit
+                dolor ipsam ea laboriosam nesciunt? Vel, iusto voluptatum.
+                Eveniet consectetur veniam totam sequi! Nihil fuga eius illo
+                dignissimos possimus facere hic quibusdam minus inventore
+                corporis. Dolor veritatis provident nulla sequi quaerat autem
+                ullam odit corporis.
+              </div>
+            </div>
+            <div class="card-footer text-muted">
+              <a
+                href="https://www.linkedin.com/in/robert-ekpai-3905751a4/"
+                target="_blank"
+                >Built by Robert E.</a
+              >
+            </div>
+          </div>
+          <!--stats and count-->
+          <div class="col-sm-4 Stats">
+            <div class="card my-2 Select">
+                <h5 class='card-header'>Select a Book</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#">Harry Potter</a></li>
+                                <li><a href="#">Alice</a></li>
+                                <li><a href="#">Lord</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="card my-2" >
+                <h5 class="card-header">Most Used Words</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyled mb-0" id="mostused">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-2" >
+                <h5 class="card-header">Least Used Words</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyled mb-0" id="leastused">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-2" >
+                <h5 class="card-header">Document Stats</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyled mb-0" id="docstats">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
