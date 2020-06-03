@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "StringSearch.js",
-  "homepage": "https://github.com/RobertTk1/Exploore",
+  "homepage": "http://Roberttk1.github.io/Exploore",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d exploore"
   },
   "repository": {
     "type": "git",
