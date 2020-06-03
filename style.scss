@@ -5,26 +5,101 @@
 
 body {
   min-height: 100vh;
-  background: rgb(238, 174, 202);
+  background: rgb(57, 188, 248);
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgba(245, 105, 140, 0.822) 0%,
+    rgb(117, 178, 247) 100%
   );
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.Display {
-  .Box {
-    padding: 0 0 !important;
-
-    .displayBox {
-      width: 100%;
+@keyframes animate {
+  0%,
+  20% {
+    content: "Discover";
+  }
+  50% {
+    content: "Dive into";
+  }
+  100% {
+    content: "Learn more about";
+  }
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.3rem 0 !important;
+}
+.mainContent {
+  .Logo {
+    font-size: 3rem;
+    color: rgb(255, 254, 254);
+    text-shadow: 2px 2px 2px rgb(15, 15, 15);
+  }
+  p {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(3, 3, 3);
+    border-radius: 10px;
+    background-color: #ececec;
+    display: inline-block;
+    padding: 0.1rem 1rem;
+    span {
+      color: rgb(253, 116, 173);
     }
-    .scroll-box {
-      overflow-y: auto;
-      height: 50vh;
+
+    span:before {
+      content: "";
+      animation: animate forwards 10s;
+    }
+  }
+
+  .card-header {
+    padding: 0.4rem 1rem;
+    font-size: 1.5rem;
+  }
+  .card-footer {
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    a {
+      text-decoration: none;
+      color: rgb(112, 178, 253) !important;
+
+      &:hover {
+        color: rgb(114, 113, 113) !important;
+      }
+    }
+  }
+  .displayBox {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.scroll-box {
+  overflow-y: auto;
+  height: 400px;
+  float: left;
+  padding: 0.1rem;
+}
+
+.Books {
+  li a {
+    text-decoration: none;
+    color: rgb(68, 155, 255) !important;
+
+    &:hover {
+      color: rgb(82, 107, 146) !important;
     }
   }
 }

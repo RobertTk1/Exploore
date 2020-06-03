@@ -5,22 +5,116 @@
 
 body {
   min-height: 100vh;
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  background: #39bcf8;
+  background: radial-gradient(circle, rgba(245, 105, 140, 0.822) 0%, #75b2f7 100%);
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Display .Box {
-  padding: 0 0 !important;
+@-webkit-keyframes animate {
+  0%,
+  20% {
+    content: "Discover";
+  }
+  50% {
+    content: "Dive into";
+  }
+  100% {
+    content: "Learn more about";
+  }
 }
 
-.Display .Box .displayBox {
+@keyframes animate {
+  0%,
+  20% {
+    content: "Discover";
+  }
+  50% {
+    content: "Dive into";
+  }
+  100% {
+    content: "Learn more about";
+  }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.3rem 0 !important;
+}
+
+.mainContent .Logo {
+  font-size: 3rem;
+  color: #fffefe;
+  text-shadow: 2px 2px 2px #0f0f0f;
+}
+
+.mainContent p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #030303;
+  border-radius: 10px;
+  background-color: #ececec;
+  display: inline-block;
+  padding: 0.1rem 1rem;
+}
+
+.mainContent p span {
+  color: #fd74ad;
+}
+
+.mainContent p span:before {
+  content: "";
+  -webkit-animation: animate forwards 10s;
+          animation: animate forwards 10s;
+}
+
+.mainContent .card-header {
+  padding: 0.4rem 1rem;
+  font-size: 1.5rem;
+}
+
+.mainContent .card-footer {
+  padding: 0.4rem 1rem;
+  font-size: 1.1rem;
+}
+
+.mainContent .card-footer a {
+  text-decoration: none;
+  color: #70b2fd !important;
+}
+
+.mainContent .card-footer a:hover {
+  color: #727171 !important;
+}
+
+.mainContent .displayBox {
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.Display .Box .scroll-box {
+.scroll-box {
   overflow-y: auto;
-  height: 50vh;
+  height: 400px;
+  float: left;
+  padding: 0.1rem;
+}
+
+.Books li a {
+  text-decoration: none;
+  color: #449bff !important;
+}
+
+.Books li a:hover {
+  color: #526b92 !important;
 }
 /*# sourceMappingURL=style.css.map */
