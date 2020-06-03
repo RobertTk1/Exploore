@@ -1,0 +1,23 @@
+{
+  "name": "notary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "StringSearch.js",
+  "homepage": "https://github.com/RobertTk1/Exploore",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertTk1/Exploore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertTk1/Exploore/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
